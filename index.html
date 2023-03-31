@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link>
+    <title>ATM</title>
+
+
+</head>
+
+<body>
+
+
+
+    <nav id="top-cajero">
+        <div>
+            <h1 style="color: aliceblue;">BIENVENIDO AL CAJERO</h1>
+            <hr style="color: aliceblue;">
+
+
+        </div>
+
+    </nav>
+
+    <main id="content">
+
+        <div id="login">
+            
+            
+
+            <input class="estilo-buscar" id="name" type="password" placeholder="Ingresa Nombre">
+            <input class="estilo-buscar" id="pass" type="password" placeholder="Ingresa Password">
+            <button onclick="botonBuscar();">Buscar</button>
+        
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+    </main>
+
+    <div id="Validar-User">
+
+    </div>
+
+    <div id="central">
+
+        <div id="izq">
+            <section id="options" class="Start-none">
+    
+                <button id="saldo" onclick="mostrarSaldo();">Consultar Saldo</button>
+                <br>
+                <button id="ingresa-monto" onclick="mostrarIngresos();">Ingresar monto</button>
+                <br>
+                <button id="retirar-monto" onclick="mostrarRetiro();">Retirar monto</button>
+                <br>
+    
+            </section>
+    
+    
+        </div>
+        <br>
+    
+        <div id="der">
+    
+            <section id="Saldo" class="Start-none">
+    
+            </section>
+    
+            <section id="Ingresar-monto" class="Start-none">
+                <input id="ingresar-monto-input" type="text" placeholder="Ingresa cantidad a depositar">
+                <button onclick="depositos();">Aceptar</button>
+    
+            </section>
+    
+    
+            <section id="Retirar-monto" class="Start-none">
+    
+                <input id="retirar-monto-input" type="text" placeholder="Ingresa cantidad a retirar">
+                <button onclick="retiros();">Aceptar</button>
+    
+    
+            </section>
+
+
+            <section id="salir-cuenta">
+                <button onclick="salirUsuario();">Salir</button>
+
+
+            </section>
+    
+        </div>
+
+
+    </div>
+
+    
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+</body>
+
+</html>

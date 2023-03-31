@@ -1,0 +1,56 @@
+
+
+body{
+    background-color: rgb(151, 205, 207);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+}
+#top-cajero{
+    display: flex;
+    background-color: rgb(151, 205, 207);
+    height: 80px;
+    justify-content: center;
+
+}
+#Validar-User{
+    text-align: center;
+}
+
+
+#content{
+
+    display: flex;  
+    justify-content: center;
+}
+
+
+
+#Saldo{
+    background-color: rgb(230, 225, 225);
+    border: black 1px solid;
+    width: 200px ;
+    height: 35px;
+}
+
+#Ingresar-monto input{
+    width: 300px;
+    height: 20px;
+
+}
+
+#Retirar-monto input{
+    width: 200px;
+    height: 20px;
+
+}
+.Start-none{
+    display: none;
+}
+
+#salir-cuenta{
+    display: none;
+}
+
+
+
+
